@@ -11,7 +11,7 @@ import com.tutmod.tutmod.creativetabs.TabMain;
 import com.tutmod.tutmod.proxy.CommonProxy;
 
 @Mod(modid = MainClass.MODID, name = "TutorialMod",version = MainClass.VERSION
-public class MainClass{
+public class MainClass {
 	public static final String MODID = "tutmod";
 	public static final String VERSION = "0.1";
     	public static CreativeTabs tabMain = new TabMain("tabMain");
@@ -20,16 +20,16 @@ public class MainClass{
    	public static CommonProxy proxy;
 	
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event){
+    public void preInit(FMLPreInitializationEvent event) {
     	RegListEvent.init();
         proxy.preInit(event);
     }
     @EventHandler
-    public void init(FMLInitializationEvent event){
+    public void init(FMLInitializationEvent event) {
         proxy.init(event);
     }
     @EventHandler
-    public void postInit(FMLPostInitializationEvent event){
+    public void postInit(FMLPostInitializationEvent event) {
         proxy.postInit(event);
     }
 }

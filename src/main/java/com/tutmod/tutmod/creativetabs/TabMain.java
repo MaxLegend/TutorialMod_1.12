@@ -4,8 +4,8 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class TabMain extends CreativeTabs{
-	public TabMain(String label){
+public class TabMain extends CreativeTabs {
+	public TabMain(String label) {
 		super(label);
 	}
 	@Override

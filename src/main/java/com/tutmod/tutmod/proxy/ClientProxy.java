@@ -6,24 +6,21 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 import com.tutmod.tutmod.items.ItemReg;
 
-public class ClientProxy extends CommonProxy
-{
+public class ClientProxy extends CommonProxy {
     @Override
-    public void preInit(FMLPreInitializationEvent event)
-    {
+    public void preInit(FMLPreInitializationEvent event) {
         super.preInit(event);
     }
 
     @Override
-    public void init(FMLInitializationEvent event)
-    {
+    public void init(FMLInitializationEvent event) {
+    	BlockReg.registerRender();
        	ItemReg.registerRender();
         super.init(event);
     }
 
     @Override
-    public void postInit(FMLPostInitializationEvent event)
-    {
+    public void postInit(FMLPostInitializationEvent event) {
         super.postInit(event);
     }
 }

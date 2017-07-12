@@ -1,7 +1,6 @@
 package com.tutmod.tutmod.basic;
 
 import com.tutmod.tutmod.MainClass;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

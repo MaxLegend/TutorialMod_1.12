@@ -33,12 +33,12 @@ public class ItemReg
         setRender(tuttool);
     }
 
-    private static void setRegister(Item item)
+    private static void registerItems(Item item)
     {
         ForgeRegistries.ITEMS.register(item);
     }
 
-    private static void setRender(Item item)
+    private static void registerItemsRender(Item item)
     {
     	Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
     }

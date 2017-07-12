@@ -9,9 +9,9 @@ import net.minecraft.world.World;
 
 import com.tutmod.tutmod.MainClass;
 
-public class BasicFood extends ItemFood{
+public class BasicFood extends ItemFood {
 	public Item item;
-	public BasicFood(int amount, float saturation, boolean isWolfFood,String name,Item item){
+	public BasicFood(int amount, float saturation, boolean isWolfFood,String name,Item item) {
 		super(amount, saturation, isWolfFood);	
 	       this.setRegistryName(name);
 	       this.setCreativeTab(MainClass.tabMain);

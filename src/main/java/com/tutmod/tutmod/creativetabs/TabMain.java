@@ -10,7 +10,6 @@ public class TabMain extends CreativeTabs{
 	}
 	@Override
 	public ItemStack getTabIconItem() {
-	
 		return new ItemStack(Items.APPLE);
 	}
 }

@@ -11,21 +11,19 @@ import com.tutmod.tutmod.MainClass;
 
 public class BasicFood extends ItemFood{
 	public Item item;
-	public BasicFood(int amount, float saturation, boolean isWolfFood,String name,Item item) {
+	public BasicFood(int amount, float saturation, boolean isWolfFood,String name,Item item){
 		super(amount, saturation, isWolfFood);	
 	       this.setRegistryName(name);
 	       this.setCreativeTab(MainClass.tabMain);
 	       this.setUnlocalizedName(name);
 	       this.item = item;
-	}
-	@Override
+	 }
+	 @Override
 	 public void onFoodEaten(ItemStack is, World worldIn, EntityPlayer player) {
-	//	EntityPlayer player = (EntityPlayer) elb;
-	  ItemStack itemSA = new ItemStack(item);
-	  if (!player.capabilities.isCreativeMode) player.getHeldItem(EnumHand.MAIN_HAND).shrink(1);
-	  if (!player.inventory.addItemStackToInventory(itemSA))
+	  	ItemStack itemSA = new ItemStack(item);
+	  	if (!player.capabilities.isCreativeMode) player.getHeldItem(EnumHand.MAIN_HAND).shrink(1);
+	  	if (!player.inventory.addItemStackToInventory(itemSA))
 		  player.dropItem(itemSA, false);
-	
-	return;
-}
+	 return;
+	}
 }

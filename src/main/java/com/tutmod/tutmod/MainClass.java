@@ -14,10 +14,11 @@ import com.tutmod.tutmod.proxy.CommonProxy;
 public class MainClass{
 	public static final String MODID = "tutmod";
 	public static final String VERSION = "0.1";
-    	public static CommonProxy proxy;
     	public static CreativeTabs tabMain = new TabMain("tabMain");
-@SidedProxy(clientSide = "com.tutmod.tutmod.proxy.ClientProxy", serverSide = "com.tutmod.tutmod.proxy.CommonProxy")
-
+	
+   	@SidedProxy(clientSide = "com.tutmod.tutmod.proxy.ClientProxy", serverSide = "com.tutmod.tutmod.proxy.CommonProxy")
+   	public static CommonProxy proxy;
+	
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
     	RegListEvent.init();

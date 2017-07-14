@@ -14,6 +14,7 @@ import com.tutmod.tutmod.proxy.CommonProxy;
 * Вот ссылка на профиль этой свиньи на форуме
 * http://forum.mcmodding.ru/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-WhiteWaeeior
 * Не упустите случая насрать ему где нибудь :)
+А также вк - https://vk.com/white2000warrior
 */
 @Mod(modid = MainClass.MODID, name = "TutorialMod",version = MainClass.VERSION
 public class MainClass {

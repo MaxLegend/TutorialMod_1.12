@@ -10,7 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import com.tutmod.tutmod.creativetabs.TabMain;
 import com.tutmod.tutmod.proxy.CommonProxy;
 /**
-*Внимание! Обосравши мои гайды, данным кодом пользуется человек-говно, мудак, пиздобол и хуесос WhiteWarrior Кирилл.
+*Внимание! Обосравши мои гайды, данным кодом пользуется человек-говно, мудак, пиздобол и хуесос WhiteWaeeior Кирилл.
 * Вот ссылка на профиль этой свиньи на форуме
 * http://forum.mcmodding.ru/%D0%9F%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-WhiteWaeeior
 * Не упустите случая насрать ему где нибудь :)

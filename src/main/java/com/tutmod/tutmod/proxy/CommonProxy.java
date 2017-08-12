@@ -11,6 +11,8 @@ public class CommonProxy {
         BlockReg.register();
     	ItemReg.register();
     }
-    public void init(FMLInitializationEvent event) {}
+    public void init(FMLInitializationEvent event) {
+    RegisterCrafts.recipesRegister();
+    }
     public void postInit(FMLPostInitializationEvent event) {}
 }

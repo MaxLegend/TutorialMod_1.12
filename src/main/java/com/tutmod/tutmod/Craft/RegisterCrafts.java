@@ -16,8 +16,8 @@ public class RealismCrafts {
 			"Y Y",
 			" Y ",
 			"YHY",
-			'Y', RegItems.dryvineitem,
-			'H', RegItems.spokes,
+			'Y', Items.STICK,
+			'H', Items.REDSTONE,
 			});
 		
 		GameRegistry.addShapelessRecipe(new ResourceLocation("apple"), new ResourceLocation("apple"), new ItemStack(Items.APPLE), new Ingredient[] {Ingredient.fromItem(Items.STICK),Ingredient.fromItem(Items.APPLE)});
